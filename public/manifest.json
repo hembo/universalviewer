@@ -3,7 +3,7 @@
         "http:/www.w3.org/ns/anno.jsonld",
         "http:/iiif.io/api/presentation/3/context.json"
     ],
-    "id": "http://10.0.2.147:8080/public/manifest.json",
+    "id": "https://raw.githubusercontent.com/hembo/universalviewer/refs/heads/aleph-r3f-prezi-4-beta/public/manifest.json",
     "type": "Manifest",
     "items": [
         {
@@ -19,7 +19,7 @@
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "http://10.0.2.147:8080/public/tartu_old_observatory_mesh_model-optimized2.glb",
+                                "id": "https://github.com/hembo/universalviewer/raw/refs/heads/aleph-r3f-prezi-4-beta/public/tartu_old_observatory_mesh_model-optimized2.glb",
                                 "type": "Model",
                                 "format": "model/gltf-binary",
                                 "label": {
