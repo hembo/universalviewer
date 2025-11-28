@@ -1,0 +1,89 @@
+{
+    "@context": [
+        "http:/www.w3.org/ns/anno.jsonld",
+        "http:/iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "http://10.0.2.147:8080/public/manifest.json",
+    "type": "Manifest",
+    "items": [
+        {
+            "id": "http://10.0.2.147:8080/public/canvas/0",
+            "type": "Canvas",
+            "items": [
+                {
+                    "id": "http://10.0.2.147:8080/public/canvas/0/annotationpage/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://10.0.2.147:8080/public/canvas/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "http://10.0.2.147:8080/public/tartu_old_observatory_mesh_model-optimized2.glb",
+                                "type": "Model",
+                                "format": "model/gltf-binary",
+                                "label": {
+                                    "@none": [
+                                        "Observatory"
+                                    ]
+                                }
+                            },
+                            "target": "http://10.0.2.147:8080/public/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "label": {
+                "@none": [
+                    "Observatory"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "http://10.0.2.147:8080/public/observatory.png",
+                    "type": "Image",
+                    "format": "image/png"
+                }
+            ]
+        }
+    ],
+    "label": {
+        "@none": [
+            "Observatory"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://10.0.2.147:8080/public/observatory.png",
+            "type": "Image",
+            "format": "image/png"
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "@none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "@none": [
+                    "Observatory"
+                ]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Photogrammetry by Archaeovision"
+            ]
+        }
+    },
+    "rights": "https:/creativecommons.org/licenses/by-sa/4.0/"
+}
